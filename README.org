@@ -1,0 +1,4 @@
+* Connect4
+** Getting Started
+** Installation
+** Documentation
