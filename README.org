@@ -5,14 +5,14 @@
    #+BEGIN_SRC bash
    git clone https://github.com/anirudh-c/connect4 /path/to/directory
    #+END_SRC
-   To load the package into emacs, press <kbd>M-x load-file</kbd> and give the path to the file connect4.el as /path/to/directory/connect4.el
+   To load the package into emacs, press ~M-x load-file~ and give the path to the file connect4.el as /path/to/directory/connect4.el
    
-   Now to start the game press <kbd>M-x connect4</kbd>
+   Now to start the game press ~M-x connect4~
    
-   Navigate to any of the '.' points in the matrix and press <kbd>M-x connect4-mark</kbd>.
+   Navigate to any of the ~.~ points in the matrix and press ~M-x connect4-mark~.
 
-   **Note:** The game always starts with an X. And since this is an initial primitive build you have unlimited power to mark your Xs and Os everywhere.
-   Later versions will take care of the marking and provide an AI to play against. Till then, play fair.
+   (Note: The game always starts with an X. And since this is an initial primitive build you have unlimited power to mark your Xs and Os everywhere.
+   Later versions will take care of the marking and provide an AI to play against. Till then, play fair.)
 ** Installation
    To "install" connect4, put the file in the directory ~/.emacs.d/lisp/ and put the following in your init.el:
    #+BEGIN_SRC elisp
