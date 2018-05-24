@@ -56,7 +56,7 @@
   "Mark the current square"
   (interactive)
   (let ((row (1- (line-number-at-pos)))
-        (column (current-column)))
+        (column (/ (- (current-column) 2) 4)))
     (connect4-set-square row column *connect4-current-player*))
   (connect4-print-board)
   (when (connect4-game-has-been-won)
